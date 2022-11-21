@@ -42,6 +42,7 @@ body.Bg_explorer {
   justify-content: center;
   align-items: center;
   height: 60vh;
+  gap: 2.4rem;
 }
 
 a{

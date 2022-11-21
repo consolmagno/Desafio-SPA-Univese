@@ -31,8 +31,7 @@ export class Router {
       explorationSelected.classList.add('selected')
       document.body.classList.remove('Bg_universe')
       document.body.classList.add('Bg_explorer')
-    }
-    if (pathname == '/universe') {
+    } else if (pathname == '/universe') {
       homeSelected.classList.remove('selected')
       universeSelected.classList.add('selected')
       explorationSelected.classList.remove('selected')
