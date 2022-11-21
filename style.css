@@ -22,8 +22,14 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background: black;
+  background-image: url(assets/mountains-universe-1.png);
+  background-size: cover;
 }
+
+body.Bg_universe {
+background-image: url(assets/mountains-universe-2.png);
+}
+
 
 #app{
   display: flex;
@@ -40,7 +46,8 @@ a{
   color: var(--nav-selector-color);
 }
 
-.selected a{
+nav a:hover,
+nav a.selected{
   font-weight: 700;
   font-size: 2.4rem;
   color: var(--principal-color);
@@ -91,6 +98,3 @@ p{
   margin-top: 1.6rem ;
 }
 
-/* .text{
-  margin:  18.5rem 10.2rem;
-} */
